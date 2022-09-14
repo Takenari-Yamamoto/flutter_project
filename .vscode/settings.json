@@ -156,5 +156,6 @@
     "editor.suggestSelection": "first",
     "editor.tabCompletion": "onlySnippets",
     "editor.wordBasedSuggestions": false
-  }
+  },
+  "cSpell.enabledLanguageIds": ["dart"]
 }
