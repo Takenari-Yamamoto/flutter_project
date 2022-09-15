@@ -136,7 +136,12 @@
     "Scaffold",
     "Hello",
     "style",
-    "AxisAlignment"
+    "AxisAlignment",
+    "Controller",
+    "selected",
+    "pages",
+    "initial",
+    "Changed"
   ],
   "intelephense.diagnostics.undefinedTypes": false,
   "typescript.updateImportsOnFileMove.enabled": "always",
