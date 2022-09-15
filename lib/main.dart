@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 
 void main() {
   runApp(const MyApp());
@@ -34,7 +35,6 @@ class _MyHomePageState extends State<MyHomePage> {
   void _incrementCounter() {
     setState(() {
       _counter++;
-      print("Hello ---??????????????????? World");
     });
   }
 
@@ -55,6 +55,9 @@ class _MyHomePageState extends State<MyHomePage> {
               '$_counter',
               style: Theme.of(context).textTheme.headline4,
             ),
+            Icon(FontAwesomeIcons.gift, color: Colors.teal),
+            if (_counter % 2 == 0)
+              Text('偶数です。', style: TextStyle(color: Colors.red))
           ],
         ),
       ),
