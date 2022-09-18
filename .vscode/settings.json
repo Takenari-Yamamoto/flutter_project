@@ -141,7 +141,10 @@
     "selected",
     "pages",
     "initial",
-    "Changed"
+    "Changed",
+    "Call",
+    "Back",
+    "SubString"
   ],
   "intelephense.diagnostics.undefinedTypes": false,
   "typescript.updateImportsOnFileMove.enabled": "always",
@@ -160,7 +163,11 @@
     "editor.suggest.snippetsPreventQuickSuggestions": false,
     "editor.suggestSelection": "first",
     "editor.tabCompletion": "onlySnippets",
-    "editor.wordBasedSuggestions": false
+    "editor.wordBasedSuggestions": false,
+    "editor.tabSize": 4,
+    "editor.insertSpaces": true,
+    "editor.detectIndentation": true
   },
+  "dart.lineLength": 80,
   "cSpell.enabledLanguageIds": ["dart"]
 }
